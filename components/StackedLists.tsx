@@ -1,9 +1,9 @@
-
-import { CalendarIcon, LocationMarkerIcon, UsersIcon } from '@heroicons/react/solid'
-import { jobList } from '../data/jobList'
-
-
-
+import {
+  CalendarIcon,
+  LocationMarkerIcon,
+  UsersIcon,
+} from "@heroicons/react/solid";
+import { jobList } from "../data/jobList";
 
 export default function StackedLists() {
   return (
@@ -26,7 +26,10 @@ export default function StackedLists() {
                 <div className="mt-2 sm:flex sm:justify-between">
                   <div className="sm:flex">
                     <p className="flex items-center text-sm text-gray-500">
-                      <UsersIcon className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" aria-hidden="true" />
+                      <UsersIcon
+                        className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400"
+                        aria-hidden="true"
+                      />
                       {position.company}
                     </p>
                     <p className="mt-2 flex items-center text-sm text-gray-500 sm:mt-0 sm:ml-6">
@@ -43,7 +46,10 @@ export default function StackedLists() {
                       aria-hidden="true"
                     />
                     <p>
-                      締め切り <time dateTime={position.closeDate}>{position.closeDateFull}</time>
+                      締め切り{" "}
+                      <time dateTime={position.closeDate}>
+                        {position.closeDateFull}
+                      </time>
                     </p>
                   </div>
                 </div>
