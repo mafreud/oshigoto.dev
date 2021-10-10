@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import StackedLists from "../components/StackedLists";
 import Footer from "../components/Footer";
+import Seo from "../components/Seo";
 
 export default function Index() {
   return (
@@ -12,6 +13,15 @@ export default function Index() {
         </div>
       </body>
       <Footer />
+      <Seo
+        pageTitle={"Oshigoto"}
+        pageDescription={
+          "オープンソースなエンジニアの仕事を無料で探せるサービスです。"
+        }
+        pageImg={"https://www.oshigoto.dev/"}
+        pageImgWidth={1280}
+        pageImgHeight={960}
+      />
     </>
   );
 }
