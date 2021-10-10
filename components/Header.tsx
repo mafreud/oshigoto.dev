@@ -1,5 +1,5 @@
-import { Disclosure } from '@headlessui/react'
-import { SearchIcon } from '@heroicons/react/solid'
+import { Disclosure } from "@headlessui/react";
+import { SearchIcon } from "@heroicons/react/solid";
 
 export default function Header() {
   return (
@@ -10,10 +10,9 @@ export default function Header() {
             <div className="flex justify-between h-16">
               <div className="flex px-2 lg:px-0">
                 <div className="flex-shrink-0 flex items-center">
-                  <div className='text-2xl'>Oshigoto</div>
-                  <div className='text-sm ml-3'>v0.1.0</div>
+                  <div className="text-2xl">Oshigoto</div>
+                  <div className="text-sm ml-3">v0.1.0</div>
                 </div>
-                
               </div>
               <div className="flex-1 flex items-center justify-center px-2 lg:ml-6 lg:justify-end">
                 <div className="max-w-lg w-full lg:max-w-xs">
@@ -22,7 +21,10 @@ export default function Header() {
                   </label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                      <SearchIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
+                      <SearchIcon
+                        className="h-5 w-5 text-gray-400"
+                        aria-hidden="true"
+                      />
                     </div>
                     <input
                       id="search"
@@ -34,11 +36,10 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-            
             </div>
           </div>
         </>
       )}
     </Disclosure>
-  )
+  );
 }
