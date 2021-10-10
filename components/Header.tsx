@@ -11,6 +11,7 @@ export default function Header() {
               <div className="flex px-2 lg:px-0">
                 <div className="flex-shrink-0 flex items-center">
                   <div className='text-2xl'>Oshigoto</div>
+                  <div className='text-sm ml-3'>v0.1.0</div>
                 </div>
                 
               </div>
