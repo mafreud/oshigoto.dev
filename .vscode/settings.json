@@ -1,3 +1,10 @@
 {
-  "cSpell.words": ["Oshigoto"]
+  "cSpell.words": ["Oshigoto"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // ファイル保存時、prettier による自動フォーマット
+  "editor.formatOnSave": true,
+  // ファイル保存時、ESLint による自動フォーマット
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
 }
