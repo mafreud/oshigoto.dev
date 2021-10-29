@@ -21,16 +21,6 @@ export const jobList = [
   },
   {
     id: 0,
-    title: "Flutter Developer",
-    type: "副業",
-    location: "リモート/福岡",
-    company: "ヨクト株式会社",
-    closeDate: "2022-01-01",
-    closeDateFull: "January 1, 2022",
-    contact: "https://twitter.com/sora0513",
-  },
-  {
-    id: 0,
     title: "Flutter + Firebase Developer",
     type: "フルタイム",
     location: "リモート/大阪梅田",
