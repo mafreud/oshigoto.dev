@@ -11,7 +11,6 @@ export default function Index() {
           <StackedLists />
         </div>
       </body>
-      <Footer />
     </>
   );
 }
