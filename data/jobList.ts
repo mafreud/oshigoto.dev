@@ -2,6 +2,16 @@ export const jobList = [
   {
     id: 0,
     title: "Flutter Developer",
+    type: "副業",
+    location: "フルリモート",
+    company: "株式会社NappsTechnologies",
+    closeDate: "2022-01-01",
+    closeDateFull: "January 1, 2022",
+    contact: "https://twitter.com/sarukun99",
+  },
+  {
+    id: 0,
+    title: "Flutter Developer",
     type: "フルタイム",
     location: "フルリモート",
     company: "ワインエンス株式会社",
