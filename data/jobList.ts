@@ -1,6 +1,16 @@
 export const jobList = [
   {
     id: 0,
+    title: "Flutterエンジニア@物流スタートアップ",
+    type: "副業",
+    location: "リモート/日本橋",
+    company: "株式会社ナレッジセンス",
+    closeDate: "2022-03-31",
+    closeDateFull: "March 31, 2022",
+    contact: "https://open.talentio.com/r/1/c/knowledgesense/pages/59200",
+  },
+  {
+    id: 0,
     title: "Flutter Developer",
     type: "副業",
     location: "フルリモート",
